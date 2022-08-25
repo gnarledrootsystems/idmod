@@ -11,3 +11,12 @@ ln -sf $PWD/osx/idmod /usr/local/bin
 ```
 
 Once that is run, you can use `idmod` anywhere.
+
+## How to use
+
+`idmod` takes 1 parameter which is the ascii form of the mode (Example: `drwxr-xr-x`) and returns the numerical form to be used with `chmod`.
+
+```
+idmod drwxr-xr-x
+```
+returns `755`
